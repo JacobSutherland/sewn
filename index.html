@@ -9,21 +9,21 @@
 </head>
 <body>
     <div class='body-wrapper'>
-        <section class='landing'>
+        <section id='landing'>
         <header>
             <h1 class='logo'>Sewn</h1>
             <nav>
-                <a>Home</a>
-                <a>About</a>
-                <a>Lookbook</a>
-                <a>Popups</a>
+                <a href='#landing'>Home</a>
+                <a href='#about'>About</a>
+                <a href='#look-book'>Lookbook</a>
+                <a href='#pop-ups'>Popups</a>
             </nav>
         </header>
         <div class='hero-container'></div>
         <div class='cta-headers-button-container'>
             <h2><span>Bloom</span> collection</h2> 
             <h2>Live Now</h2>
-            <div class='btn'><a href='#pop-ups'>Discover</a></div>
+            <div class='btn'><a href='#look-book'>Discover</a></div>
         </div>
         <svg class='scroll' width="46" height="60" viewBox="0 0 46 60" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="46" height="60" rx="23" fill="#5D5E55"/>
@@ -43,11 +43,11 @@
         <section id='look-book'>
             <h2>Bloom collection</h2>
             <div class='look-book-image-container'>
-                <div class='one'>  </div>
-                <div class='two'> </div>
-                <div class='three'> </div>
-                <div class='four'> </div>
-                <div class='five'> </div>
+                <a href='images/sewn1.jpg' target='blank' class='one'>  </a>
+                <a href='images/sewn3.jpg' target='blank' class='two'> </a>
+                <a href='images/sewn4.jpg' target='balnk' class='three'> </a>
+                <a href='images/sewn8.jpg' target='blank' class='four'> </a>
+                <a href='images/sewn7.jpg' target='blank' class='five'> </a>
             </div>
         </section>
         <section id='pop-ups'>
@@ -85,12 +85,18 @@
     </div>  
 
     <footer id='footer'>
-        <p>copyright sewn 2020</p>
+        <p>copyright sewn 2020&#169</p>
         <div class='icon-container'>
             <i class="fab fa-twitter-square"></i>
             <i class="fab fa-instagram"></i>
             <i class="fab fa-facebook-square"></i>
         </div>
+        <nav>
+            <a href='#landing'>Home</a>
+            <a href='#about'>About</a>
+            <a href='#look-book'>Lookbook</a>
+            <a href='#pop-ups'>Popups</a>
+        </nav>
     </footer> 
     <script src='app.js'></script>
 </body>
