@@ -77,10 +77,15 @@ table {
 	--footer-background-color: #535151;
 	--footer-font-color: white;
 
+
 /* ============== Mobile variables ============== */ 
 /* --m-general-font-size: calc(.8rem + 1vw); */
---m-general-font-size: 1.8rem;
+--h2-headings: 3.2rem;
+--m-logo-size: 4.5rem;
 --m-span-bold-font-size: 2.4rem;
+--m-button-size: 1.8rem;
+--m-span-bold-font-size: 2.4rem;
+--m-cta-headings-size: 4.5rem;
 }
 
 /* ============== Global Styles ============== */ 
@@ -144,6 +149,9 @@ header {
 	padding: 2rem;
 }
 
+.drop-down {
+	display: none;
+}
 
 header a {
 	margin-right: 2rem;
@@ -201,14 +209,14 @@ text-transform: uppercase;
 }
 
 .scroll {
-	margin-top: 2em;
+	margin-top: 2rem;
 	margin-left: 50%;
 }
 
 #about {
 	grid-area: about;
 	display: flex;
-	height: 100vh;
+	/* height: 100vh; */
 	
 }
 
@@ -408,4 +416,241 @@ footer nav a {
 	color: white;
 	font-size: var(--general-font-size);
 	margin-right: 2rem;
+}
+
+/* ============== Tablet Styles ============== */ 
+@media(max-width: 814px) {
+
+/* ============== Layout ============== */ 
+
+.body-wrapper {
+	grid-gap: 5rem;
+}
+nav {
+	display: none;
+}
+.drop-down {
+	display: block;
+}
+
+.cta-headers-button-container {
+	text-align: left;
+	height: 40rem;
+	width: 35rem;
+	bottom: 10rem;
+}
+
+.cta-headers-button-container .btn {
+	left: 10rem;
+}
+
+#about {
+	height: auto;
+}
+
+.about-img-container {
+	display: none;
+}
+
+.about-description-container {
+	width: 50%;
+}
+
+.main-side-bar-image {
+	width: 50%;
+}
+
+#look-book {
+	height: 300vh;
+}
+
+
+.look-book-image-container {
+	display: grid;
+	grid-template-areas: 
+	'one one one one'
+	'two two two two'
+	'three three three three'
+	'four four four four';
+	grid-gap: 1rem;
+	justify-items: stretch;
+	height: 100%;
+	width: 100%;
+}
+
+.one {
+	grid-column: 1/ 5;
+	grid-row: span 2;
+}
+
+
+.two {
+	grid-column: 1/ 5;
+	grid-row: span 2;
+}
+
+
+.three {
+	grid-column: 1/ 5;
+	grid-row: span 2;
+}
+
+
+.four {
+	grid-column: 1/ 5;
+	grid-row: span 2;
+}
+
+
+.five {
+	grid-column: 1/ 5;
+	grid-row: span 2;
+}
+
+
+.pop-up-text-card {
+	line-height: 2;
+}
+
+.pop-up-image-container {
+	background-position:right;
+}
+
+input {
+	width: 100%;
+}
+
+button {
+	width: 100%;
+}
+
+footer nav {
+	/* border: 2px solid red; */
+	display: flex;
+	flex-direction: column;
+}
+
+footer nav a {
+	font-size: 1rem;
+}
+
+}
+
+/* ============== Mobile Styles ============== */ 
+@media(max-width: 600px) {
+
+/* ============== Typography ============== */ 
+	h1 {
+		font-size: var(--m-logo-size);
+		color: var(--logo-font-color);
+		text-transform: uppercase;
+	}
+	
+	h2 {
+		font-size: var(--m-cta-headings-size);
+		color: white;
+	}
+	
+	
+	p {
+		font-size: 1.6rem;
+		line-height: 1.5;
+		
+	}
+
+	.about-description-container p span {
+		font-size: var(--m-span-bold-font-size);
+	}
+
+	.pop-up-text-card span {
+		font-size: 2.4rem;
+	}
+
+	#look-book h2 {
+		font-size: var(--h2-headings);
+	}
+
+
+/* ============== Layout ============== */ 
+
+.body-wrapper {
+	padding: 2rem;
+}
+
+	.drop-down {
+		height: 3rem;
+		position: absolute;
+		right: -1rem;
+	}
+
+	.cta-headers-button-container {
+		width: 25rem;
+		bottom: 12rem;
+		left: -1rem;
+	}
+
+	.cta-headers-button-container .btn {
+		left: 4rem;
+	}
+
+	.about-description-container {
+		padding: 1rem;
+	}
+
+	.about-description-container p {
+		line-height: 1.5;
+	}
+
+	.one {
+		background-position: 50% 30%;
+	}
+
+	.two {
+		background-position: 50% 30%;
+	}
+
+
+	.pop-up-text-card{
+		padding: 0 1rem 0 1rem;
+	}
+
+	.pop-up-text-card p {
+		line-height: 1.2;
+	}
+
+	form {
+		margin-top: 1rem;
+		padding: 0;
+	}
+
+	input {
+		height: 3rem;
+		width: 90%;
+	}
+
+	button {
+		height: 3rem;
+		width: 90%;
+	}
+
+	i {
+		font-size: 1.5rem;
+		margin: 1rem;
+	}
+}
+
+/* ============== Small devices ============== */ 
+@media(max-width:345px){
+
+/* ============== Typography ============== */ 
+
+p {
+	font-size: 1.2rem;
+}
+
+
+.cta-headers-button-container {
+	height: 30rem;
+}
+
 }
