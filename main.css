@@ -153,6 +153,10 @@ header {
 	display: none;
 }
 
+.close {
+	display: none;
+}
+
 header a {
 	margin-right: 2rem;
 	cursor: pointer;
@@ -421,16 +425,46 @@ footer nav a {
 /* ============== Tablet Styles ============== */ 
 @media(max-width: 814px) {
 
+/* ==============Typography============== */
+nav a {
+	color: white;
+}
+
+/* ============== Javascript Applied Styles ============== */ 
+/* drop down open added to nav onClick event*/
+ .open-menu {
+	display: flex;
+	position: absolute;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 100%;
+	top: -2rem;
+	right: -6rem;
+	width: 100vw;
+	background-color: var(--button-color);
+	z-index: 100;
+	padding-right: 5rem;
+}
+
 /* ============== Layout ============== */ 
 
 .body-wrapper {
 	grid-gap: 5rem;
+	overflow: hidden;
 }
 nav {
 	display: none;
 }
+
 .drop-down {
 	display: block;
+}
+
+.close {
+	display: block;
+	height: 3rem;
+	align-self: flex-end;
 }
 
 .cta-headers-button-container {
@@ -651,6 +685,10 @@ p {
 
 .cta-headers-button-container {
 	height: 30rem;
+}
+
+.pop-up-image-container {
+	background-position: 90% 10%;
 }
 
 }
