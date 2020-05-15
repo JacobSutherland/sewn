@@ -433,18 +433,9 @@ nav a {
 /* ============== Javascript Applied Styles ============== */ 
 /* drop down open added to nav onClick event*/
  .open-menu {
-	display: flex;
-	position: absolute;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-evenly;
-	height: 100%;
-	top: -2rem;
 	right: -6rem;
-	width: 100vw;
 	background-color: var(--button-color);
 	z-index: 100;
-	padding-right: 5rem;
 }
 
 /* ============== Layout ============== */ 
@@ -453,8 +444,23 @@ nav a {
 	grid-gap: 5rem;
 	overflow: hidden;
 }
-nav {
-	display: none;
+header nav {
+display: flex;
+position: absolute;
+height: 100%;
+width: 100vw;
+right: -1000px;
+top: -2rem;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+padding-top: 10rem;
+padding-right: 5rem;
+transition: all .4s;
+}
+
+header nav a {
+	margin-bottom: 10rem;
 }
 
 .drop-down {
@@ -559,7 +565,6 @@ button {
 }
 
 footer nav {
-	/* border: 2px solid red; */
 	display: flex;
 	flex-direction: column;
 }

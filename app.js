@@ -4,11 +4,11 @@ const headerNavigation = document.querySelector('header nav');
 
 //Open hamburger menu
 dropDownMenu.addEventListener('click', () => {
-    headerNavigation.classList.add('open-menu');
+    headerNavigation.classList.toggle('open-menu');
 });
 
 //Close hamburger menu
-exitIcon.addEventListener('click', () =>{
-    headerNavigation.classList.remove('open-menu');
+exitIcon.addEventListener('click', () => {
+    headerNavigation.classList.toggle('open-menu');
 });
 
