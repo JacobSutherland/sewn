@@ -33,8 +33,10 @@ if(window.screen.width > 814){
 }
 else if(window.screen.width <= 814 && window.screen.width > 600){
     images[i].classList.toggle('gallery-box-tablet');
+    popupsSection.classList.toggle('fold-pop-ups-down');
 } else {
     images[i].classList.toggle('gallery-box-mobile');
+    popupsSection.classList.toggle('fold-pop-ups-down');
 } 
     imagesContainer.classList.toggle('hide-container');
     lookBookSection.classList.toggle('reposition-pops');

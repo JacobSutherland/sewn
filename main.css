@@ -95,7 +95,6 @@ html {
 body {
 	font-family: 'livvic', sans-serif, 'roboto';
 	
-	
 }
 
 /* ============== Typography ============== */ 
@@ -165,6 +164,11 @@ p {
 	overflow: hidden;	
 }
 
+.fold-pop-ups-down {
+	visibility: hidden;
+	margin-bottom: -100rem;
+}
+
 
 /* ============== Layout ============== */ 
 .body-wrapper {
@@ -179,7 +183,7 @@ p {
 	'pops pops pops'
 	'footer footer footer';
 
-	
+
 }
 
 header {
