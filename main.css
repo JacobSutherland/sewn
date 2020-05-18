@@ -148,14 +148,6 @@ p {
 	
 }
 
-.reposition-pops {
-	margin-bottom: -390%;
-}
-
-.pop-up-margin {
-	margin-top: 4rem;
-} 
-
 .close-image {
 	padding: 2rem;
 	margin: 2rem;
@@ -461,6 +453,11 @@ footer nav a {
 /* ==============Typography============== */
 nav a {
 	color: white;
+}
+
+/* javascript applied Styles */
+.reposition-pops {
+	margin-bottom: -145rem;
 }
 
 /* ============== Layout ============== */ 
