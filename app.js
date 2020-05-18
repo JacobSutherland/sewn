@@ -28,14 +28,15 @@ for(let i = 0; i < navItems.length; i++){
 //Expands image to full screen width on click
 for(let i = 0; i < images.length; i++){
     images[i].addEventListener('click', () => {
-if(window.screen.width <= 814 && window.screen.width > 600){
-    images[i].classList.toggle('gallery-box-tablet');
-} else if(window.Screen.width <= 600) {
-    images[i].classList.toggle('gallery-box-mobile');
-} else {
+if(window.screen.width > 814){
     images[i].classList.toggle('gallery-box');
 }
+else if(window.screen.width <= 814 && window.screen.width > 600){
+    images[i].classList.toggle('gallery-box-tablet');
+} else {
+    images[i].classList.toggle('gallery-box-mobile');
+} 
     imagesContainer.classList.toggle('hide-container');
     lookBookSection.classList.toggle('reposition-pops');
-    })
-}
+});
+    }
