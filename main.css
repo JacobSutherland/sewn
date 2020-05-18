@@ -166,7 +166,13 @@ p {
 
 .fold-pop-ups-down {
 	visibility: hidden;
+	margin-bottom: -200rem;
+}
+
+.footer-spacing {
+	visibility: hidden;
 	margin-bottom: -100rem;
+	margin-top: -600rem;
 }
 
 

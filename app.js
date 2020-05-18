@@ -6,6 +6,7 @@ const imagesContainer = document.querySelector('.look-book-image-container');
 const images = document.querySelectorAll('.look-book-image-container div');
 const lookBookSection = document.querySelector('#look-book');
 const popupsSection = document.querySelector('#pop-ups');
+const footer = document.querySelector('footer');
 
 
 //Open hamburger menu
@@ -34,9 +35,11 @@ if(window.screen.width > 814){
 else if(window.screen.width <= 814 && window.screen.width > 600){
     images[i].classList.toggle('gallery-box-tablet');
     popupsSection.classList.toggle('fold-pop-ups-down');
+    footer.classList.toggle('footer-spacing');
 } else {
     images[i].classList.toggle('gallery-box-mobile');
     popupsSection.classList.toggle('fold-pop-ups-down');
+    footer.classList.toggle('footer-spacing');
 } 
     imagesContainer.classList.toggle('hide-container');
     lookBookSection.classList.toggle('reposition-pops');
