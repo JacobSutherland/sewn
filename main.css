@@ -148,13 +148,6 @@ p {
 	
 }
 
-.close-image {
-	padding: 2rem;
-	margin: 2rem;
-	font-size: 5rem;
-	color: white;
-}
-
 
 /* ============== Layout ============== */ 
 .body-wrapper {
@@ -477,10 +470,12 @@ flex-direction: column;
 align-items: center;
 justify-content: flex-start;
 transition: all .4s;
+
 }
 
 header nav a {
-	margin-top: 10rem;
+	margin-top: 9rem;
+	margin: 4rem;
 }
 
 .drop-down {

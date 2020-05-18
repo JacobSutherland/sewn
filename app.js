@@ -24,29 +24,13 @@ for(let i = 0; i < navItems.length; i++){
         headerNavigation.classList.toggle('open-menu');
     });
 }
-//Creates 'X' icon to close image
-const closeImage = document.createElement('DIV');
-closeImage.innerHTML =  'X';
-closeImage.classList.add('close-image')
 
-closeImage.addEventListener('click', () => {
-    for(let i = 0; i < images.length; i++){
-        images[i].classList.toggle('gallery-box');
-    }
-})
-
-
+//Expands image to full screen width on click
 for(let i = 0; i < images.length; i++){
-        images[i].addEventListener('click', () => {
-            images[i].appendChild(closeImage);
-        images[i].classList.toggle('gallery-box');
-        imagesContainer.classList.toggle('hide-container');
-        lookBookSection.classList.toggle('reposition-pops');
-        popupsSection.classList.toggle('pop-up-margin');
-
+    images[i].addEventListener('click', () => {
+    images[i].classList.toggle('gallery-box');
+    imagesContainer.classList.toggle('hide-container');
+    lookBookSection.classList.toggle('reposition-pops');
     })
 }
-
-
-
 
