@@ -147,6 +147,15 @@ p {
 	max-height: .5px;
 }
 
+.gallery-box-mobile {
+	position: absolute;
+	width:100vw;
+	height: 100vh;
+	right:-2rem;
+	background-size: cover;
+	overflow: hidden;	
+}
+
 
 /* ============== Layout ============== */ 
 .body-wrapper {
