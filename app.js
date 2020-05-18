@@ -36,10 +36,12 @@ else if(window.screen.width <= 814 && window.screen.width > 600){
     images[i].classList.toggle('gallery-box-tablet');
     popupsSection.classList.toggle('fold-pop-ups-down');
     footer.classList.toggle('footer-spacing');
+    imagesContainer.classList.toggle('center-image-vertically');
 } else {
     images[i].classList.toggle('gallery-box-mobile');
     popupsSection.classList.toggle('fold-pop-ups-down');
     footer.classList.toggle('footer-spacing');
+    imagesContainer.classList.toggle('center-image-vertically');
 } 
     imagesContainer.classList.toggle('hide-container');
     lookBookSection.classList.toggle('reposition-pops');

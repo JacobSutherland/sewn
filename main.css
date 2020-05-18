@@ -144,6 +144,9 @@ p {
 
 .hide-container {
 	max-height: .5px;
+}
+
+.center-image-vertically {
 	margin-top: 10rem;
 }
 
@@ -173,7 +176,7 @@ p {
 .footer-spacing {
 	visibility: hidden;
 	margin-bottom: -100rem;
-	margin-top: -600rem;
+	margin-top: -100rem;
 	/* max-height: 1px; */
 }
 
