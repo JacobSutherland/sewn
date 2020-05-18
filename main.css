@@ -126,6 +126,44 @@ p {
 	
 }
 
+/* ============== Javascript Applied Styles ============== */ 
+/* drop down open added to nav onClick event*/
+.open-menu {
+	right: -6rem;
+	background-color: var(--button-color);
+	z-index: 100;
+}
+
+.gallery-box {
+	position: absolute;
+	width:100%;
+	height: 100%;
+	right: 0rem;
+	background-size: cover;
+	overflow: hidden;	
+}
+
+.hide-container {
+	max-height: 1px;
+	
+}
+
+.reposition-pops {
+	margin-bottom: -390%;
+}
+
+.pop-up-margin {
+	margin-top: 4rem;
+} 
+
+.close-image {
+	padding: 2rem;
+	margin: 2rem;
+	font-size: 5rem;
+	color: white;
+}
+
+
 /* ============== Layout ============== */ 
 .body-wrapper {
 	padding: 0 5rem 0rem 5rem;
@@ -268,7 +306,9 @@ text-transform: uppercase;
 	justify-items: stretch;
 	height: 100%;
 	width: 100%;
+	overflow: hidden;
 }
+
 
 .one {
 	grid-area: one;
@@ -421,14 +461,6 @@ footer nav a {
 /* ==============Typography============== */
 nav a {
 	color: white;
-}
-
-/* ============== Javascript Applied Styles ============== */ 
-/* drop down open added to nav onClick event*/
- .open-menu {
-	right: -6rem;
-	background-color: var(--button-color);
-	z-index: 100;
 }
 
 /* ============== Layout ============== */ 
