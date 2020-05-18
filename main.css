@@ -144,6 +144,7 @@ p {
 
 .hide-container {
 	max-height: .5px;
+	margin-top: 10rem;
 }
 
 .gallery-box-mobile {
@@ -173,6 +174,7 @@ p {
 	visibility: hidden;
 	margin-bottom: -100rem;
 	margin-top: -600rem;
+	/* max-height: 1px; */
 }
 
 
