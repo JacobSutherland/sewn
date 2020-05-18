@@ -294,6 +294,10 @@ text-transform: uppercase;
 	overflow: hidden;
 }
 
+.look-book-image-container div {
+	overflow: hidden;
+}
+
 
 .one {
 	grid-area: one;
