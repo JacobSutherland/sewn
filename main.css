@@ -156,6 +156,15 @@ p {
 	overflow: hidden;	
 }
 
+.gallery-box-tablet {
+	position: absolute;
+	width:100vw;
+	height: 100vh;
+	right:-5rem;
+	background-size: cover;
+	overflow: hidden;	
+}
+
 
 /* ============== Layout ============== */ 
 .body-wrapper {
