@@ -141,24 +141,6 @@ p {
 	max-height: .5px;
 }
 
-.gallery-box-mobile {
-	position: absolute;
-	width:100vw;
-	height: 100vh;
-	right:-2rem;
-	background-size: cover;
-	overflow: hidden;	
-}
-
-.gallery-box-tablet {
-	position: absolute;
-	width:100vw;
-	height: 100vh;
-	right:-5rem;
-	background-size: cover;
-	overflow: hidden;	
-}
-
 
 /* ============== Layout ============== */ 
 .body-wrapper {
@@ -461,7 +443,7 @@ nav a {
 
 /* javascript applied Styles */
 .reposition-pops {
-	margin-bottom: -155rem;
+	margin-bottom: -170rem;
 }
 
 .open-menu {
