@@ -141,6 +141,11 @@ p {
 	max-height: .5px;
 }
 
+.scale-broken-image {
+	background-position: 50% 20%;
+	background-size: fill;
+}
+
 /* ============== Layout ============== */ 
 .body-wrapper {
 	padding: 0 5rem 0rem 5rem;
@@ -442,7 +447,7 @@ nav a {
 
 /* javascript applied Styles */
 .reposition-look-book {
-	margin-bottom: -140rem;
+	margin-bottom: -148rem;
 }
 
 .open-menu {
@@ -628,6 +633,11 @@ footer nav a {
 
 
 /* ============== Layout ============== */ 
+
+/* .image-scaling {
+	background-position: bottom;
+	background-size: fill;
+} */
 
 .body-wrapper {
 	padding: 2rem;

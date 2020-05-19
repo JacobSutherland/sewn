@@ -29,6 +29,7 @@ for(let i = 0; i < navItems.length; i++){
 for(let i = 0; i < images.length; i++){
     images[i].addEventListener('click', () => {
     images[i].classList.toggle('gallery-box');
+    images[i].classList.toggle('image-scaling');
     imagesContainer.classList.toggle('hide-container');
     lookBookSection.classList.toggle('reposition-look-book');
 });
