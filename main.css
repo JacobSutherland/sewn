@@ -146,10 +146,6 @@ p {
 	max-height: .5px;
 }
 
-.center-image-vertically {
-	margin-top: 2rem;
-}
-
 .gallery-box-mobile {
 	position: absolute;
 	width:100vw;
@@ -167,13 +163,6 @@ p {
 	background-size: cover;
 	overflow: hidden;	
 }
-
-.fold-pop-ups-down {
-	visibility: hidden;
-	margin-bottom: -200rem;
-	max-height: 1px;
-}
-
 
 
 /* ============== Layout ============== */ 
@@ -476,7 +465,7 @@ nav a {
 
 /* javascript applied Styles */
 .reposition-pops {
-	margin-bottom: -145rem;
+	margin-bottom: -155rem;
 }
 
 /* ============== Layout ============== */ 
