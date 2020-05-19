@@ -141,7 +141,6 @@ p {
 	max-height: .5px;
 }
 
-
 /* ============== Layout ============== */ 
 .body-wrapper {
 	padding: 0 5rem 0rem 5rem;
@@ -442,8 +441,8 @@ nav a {
 }
 
 /* javascript applied Styles */
-.reposition-pops {
-	margin-bottom: -170rem;
+.reposition-look-book {
+	margin-bottom: -140rem;
 }
 
 .open-menu {

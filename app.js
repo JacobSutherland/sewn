@@ -5,6 +5,7 @@ const navItems = document.querySelectorAll('header nav a');
 const imagesContainer = document.querySelector('.look-book-image-container');
 const images = document.querySelectorAll('.look-book-image-container a');
 const lookBookSection = document.querySelector('#look-book');
+const popUpsSection = document.querySelector('#pop-ups');
 
 
 //Open hamburger menu
@@ -29,6 +30,6 @@ for(let i = 0; i < images.length; i++){
     images[i].addEventListener('click', () => {
     images[i].classList.toggle('gallery-box');
     imagesContainer.classList.toggle('hide-container');
-    lookBookSection.classList.toggle('reposition-pops');
+    lookBookSection.classList.toggle('reposition-look-book');
 });
     }
