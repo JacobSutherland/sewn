@@ -127,11 +127,6 @@ p {
 
 /* ============== Javascript Applied Styles ============== */ 
 /* drop down open added to nav onClick event*/
-.open-menu {
-	right: -6rem;
-	background-color: var(--button-color);
-	z-index: 100;
-}
 
 .gallery-box {
 	position: absolute;
@@ -466,6 +461,12 @@ nav a {
 /* javascript applied Styles */
 .reposition-pops {
 	margin-bottom: -155rem;
+}
+
+.open-menu {
+	right: -6rem;
+	background-color: var(--button-color);
+	z-index: 100;
 }
 
 /* ============== Layout ============== */ 
