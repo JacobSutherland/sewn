@@ -147,7 +147,7 @@ p {
 }
 
 .center-image-vertically {
-	margin-top: 25rem;
+	margin-top: 2rem;
 }
 
 .gallery-box-mobile {
@@ -171,14 +171,9 @@ p {
 .fold-pop-ups-down {
 	visibility: hidden;
 	margin-bottom: -200rem;
+	max-height: 1px;
 }
 
-.footer-spacing {
-	visibility: hidden;
-	margin-bottom: -100rem;
-	margin-top: -100rem;
-	/* max-height: 1px; */
-}
 
 
 /* ============== Layout ============== */ 
