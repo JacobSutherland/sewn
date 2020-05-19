@@ -3,7 +3,7 @@ const exitIcon = document.querySelector('.close');
 const headerNavigation = document.querySelector('header nav');
 const navItems = document.querySelectorAll('header nav a');
 const imagesContainer = document.querySelector('.look-book-image-container');
-const images = document.querySelectorAll('.look-book-image-container div');
+const images = document.querySelectorAll('.look-book-image-container a');
 const lookBookSection = document.querySelector('#look-book');
 
 
