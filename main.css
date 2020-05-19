@@ -126,7 +126,7 @@ p {
 }
 
 /* ============== Javascript Applied Styles ============== */ 
-/* drop down open added to nav onClick event*/
+
 
 .gallery-box {
 	position: absolute;
@@ -285,6 +285,7 @@ text-transform: uppercase;
 	overflow: hidden;
 	grid-area: img;
 	height: 100vh;
+	position: relative;
 }
 
 #look-book h2 {
