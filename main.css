@@ -606,6 +606,8 @@ header nav a {
 
 input {
 	width: 100%;
+	border: 1px solid black;
+	box-shadow: none;
 }
 
 button {
@@ -718,6 +720,7 @@ footer nav a {
 	input {
 		height: 3rem;
 		width: 90%;
+		box-shadow: none;
 	}
 
 	button {
