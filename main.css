@@ -113,6 +113,7 @@ a {
 	font-size: var(--anchor-size);
 	color: var(--general-font-color);
 	text-decoration: none;
+	cursor: pointer;
 }
 
 nav a {
@@ -138,12 +139,7 @@ p {
 }
 
 .hide-container {
-	max-height: .5px;
-}
-
-.scale-broken-image {
-	background-position: 50% 20%;
-	background-size: fill;
+	max-height: 0px;
 }
 
 /* ============== Layout ============== */ 
